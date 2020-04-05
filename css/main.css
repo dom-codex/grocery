@@ -163,6 +163,9 @@ i{
     justify-content: space-around;
 }
 @media all and (min-width:400px){
+    #nav ul li{
+        display: inline-block;
+    }
    .heading-cont{
        display:flex;
         flex-direction: column;
