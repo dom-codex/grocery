@@ -177,7 +177,7 @@ i{
     }
 }
 @media all and (min-width:400px){
-    #heading-cont{
+    .heading-cont{
         flex-direction: column;
         justify-content: space-around;
     }
