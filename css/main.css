@@ -162,6 +162,19 @@ i{
     display: flex;
     justify-content: space-around;
 }
+@media all and (min-width:400px){
+   .heading-cont{
+       display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #heading-f{
+        margin-bottom: 15px;
+    }
+    #nav ul li{
+        display:inline-block;
+    } 
+}
 @media all and (min-width:500px){
     #info{
         display: flex;
@@ -175,18 +188,6 @@ i{
     nav li a{
         font-size:1.3em;
     }
-}
-@media all and (min-width:400px){
-    .heading-cont{
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    #heading-f{
-        margin-bottom: 15px;
-    }
-    #nav ul li{
-        display:inline-block;
-    } 
 }
 @media all and (min-width:750px){
     .card p{width:100%;}
