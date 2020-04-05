@@ -163,6 +163,14 @@ i{
         display: flex;
         justify-content: space-around;
     }
+
+    #heading-f{
+        font-size:1.9em;
+        height:70px;
+    }
+    nav li a{
+        font-size:1.3em;
+    }
 }
 @media all and (min-width:400px){
     #heading-cont{
